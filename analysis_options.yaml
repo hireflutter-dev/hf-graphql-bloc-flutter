@@ -1,0 +1,15 @@
+include: package:pedantic/analysis_options.yaml
+
+linter:
+  rules:
+    prefer_final_locals: true
+    avoid_print: true
+    cancel_subscriptions: true
+    close_sinks: true
+    omit_local_variable_types: true
+    prefer_single_quotes: true
+    use_function_type_syntax: true
+    await_only_futures: true
+analyzer:
+  errors:
+    unused_import: error
