@@ -32,7 +32,7 @@ class _MyHomePageState extends State<_MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Graphql Flutter'),
+        title: const Text('Graphql Flutter'),
       ),
       body: BlocProvider(
         create: (context) => GraphqlBloc()
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<_MyHomePage> {
                 child: const Text('something went wrong'),
               );
             }
-            return Container();
+            return const SizedBox();
           },
         ),
       ),
