@@ -2,7 +2,7 @@
 
 This project interact with graphql along with bloc pattern which is getting the data.
 
-[!alt text](https://github.com/hireflutter-dev/hf-graphql-bloc-flutter/blob/master/screenshots/home_screen.png)
+![alt text](https://github.com/hireflutter-dev/hf-graphql-bloc-flutter/blob/master/screenshots/home_screen.png)
 
 ## Getting Started
 
