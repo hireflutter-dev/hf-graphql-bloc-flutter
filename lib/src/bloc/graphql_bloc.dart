@@ -1,8 +1,7 @@
 import 'dart:async';
-
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:fluttergraphql/helper/graphql_helper.dart';
+import 'package:fluttergraphql/src/helper/graphql_helper.dart';
 import 'package:meta/meta.dart';
 
 part 'graphql_event.dart';

@@ -10,8 +10,7 @@ abstract class _GraphQLService {
       {Map<String, dynamic> variables});
 }
 
-class GraphQLServiceImplRepo extends _GraphQLService {
-  GraphQLClient _client;
+class GraphQLServiceImplRepo implements _GraphQLService {
   GraphQLServiceImplRepo() {
     final link = HttpLink(uri: 'https://countries.trevorblades.com/');
 
@@ -20,6 +19,9 @@ class GraphQLServiceImplRepo extends _GraphQLService {
       cache: OptimisticCache(dataIdFromObject: typenameDataIdFromObject),
     );
   }
+
+  GraphQLClient _client;
+
   @override
   Future<QueryResult> performQuery(String query,
       {Map<String, dynamic> variables}) async {
