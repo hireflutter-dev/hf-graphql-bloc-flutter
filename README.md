@@ -1,6 +1,7 @@
 # fluttergraphql
 
-A new Flutter project.
+This project interact with graphql along with bloc pattern which is getting the data.
+
 
 ## Getting Started
 
